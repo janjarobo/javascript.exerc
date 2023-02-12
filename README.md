@@ -6,6 +6,6 @@ This repository will be a compilation of Javascript exercises that I will be mak
 All of it will be pushed thru this repository.
 
 February 12, 2023
-    -added myCalc.html & myCalc.css
+    -added myCalc.html & myCalc.css and myCalc.js
 
 Have a nice day!
