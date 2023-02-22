@@ -1,6 +1,51 @@
-header {
-    font-size: 30px;
+:root {
+    --blackish: #1b1b1b;
+    --button: #838996;
+    --buttontext: #fffafa;
 }
+
+html * {
+    font-family: 'Abril Fatface', cursive;
+    background-color: var(--blackish);
+    color: gainsboro;
+}
+
+body {
+    height: 95vh;
+}
+
+header, h1, p{
+    text-align: center;
+}
+header {
+    font-size: 50px;
+    padding: 20px;
+}
+
 h1 {
+    font-size: 25px;
+}
+
+p {
     font-size: 15px;
+}
+
+ul {
+    padding: 20px;
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vh;
+    height: 60px;
+}
+
+.counter-plus, .counter-minus {
+    padding: 20px;
+}
+
+.counter-display {
+    font-size: 40px;
 }
